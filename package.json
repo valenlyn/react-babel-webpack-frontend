@@ -7,14 +7,11 @@
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Val C",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^1.0.0",
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
