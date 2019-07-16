@@ -14,6 +14,7 @@
   "author": "Val C",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
@@ -23,7 +24,6 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
