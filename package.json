@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Val C",
@@ -21,7 +23,9 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
-  }
+  },
+  "homepage": "https://valenlyn.github.io/react-babel-webpack-frontend"
 }
