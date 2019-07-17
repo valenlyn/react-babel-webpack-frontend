@@ -1,5 +1,8 @@
 # react-babel-webpack-frontend
-boilerplate + AWS Amplify (S3)
+
+react + babel + webpack + AWS Amplify (S3) boilerplate
+
+[online here](http://react-babel-webpack-20190716225432-hostingbucket-master.s3-website.us-east-2.amazonaws.com/)
 
 ```cli
 mkdir react-babel-webpack-frontend
